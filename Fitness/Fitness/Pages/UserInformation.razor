@@ -1,0 +1,58 @@
+﻿@page "/userinformation"
+
+@inherits InstructorInformationBase.InstructorInformationBase
+
+
+<div class="row content">
+	<div class="col-md-2">
+		Last Name
+	</div>
+
+	<div class=col-md-4>
+		<input class="form-control" @bind="InstructorInformation.LastName"/>
+	</div>
+
+</div>
+
+<div class="row content">
+	<div class="col-md-2">
+		First Name
+	</div>
+
+	<div class=col-md-4>
+		<input class="form-control" @bind="InstructorInformation.FirstName"/>
+	</div>
+
+</div>
+
+<div class="row content">
+	<div class="col-md-2">
+		InstructorID
+	</div>
+
+	<div class=col-md-4>
+		<input class="form-control" @bind="InstructorInformation.InstructorId"/>  
+	</div> 
+
+</div>
+
+<div class="row content">
+	<div class="col-md-2">
+
+	</div>
+
+	<div class=col-md-4>
+		<input type="button" value="ID GENERATOR" @onclick="() => GenerateID()" />
+	</div>
+
+</div>
+
+<div class="row content">
+	<div class="col-md-2">
+	</div>
+
+	<div class=col-md-4>
+		<input type="button" value="SAVE" @onclick="() => SaveInstructorInformation()" /> 
+	</div>
+
+</div>
