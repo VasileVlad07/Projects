@@ -1,5 +1,5 @@
-First of all, this project is not finished, some functionalities still need to be implemented and improved.
 This is a project about managing a gym, where the user has seven options. 
 Depending on the chosen option, it can for example add an instructor, delete an instructor, display instructor hours, add a client, delete client, view potential clients and exit the application.
 Each option has its own specifications and depending on the user's input, different information will be displayed, deleted or added.
 To develop this project I used C#, Blazor, SQL and Entity Framework. 
+
